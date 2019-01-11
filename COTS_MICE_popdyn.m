@@ -1,6 +1,6 @@
 function [ cots_num, fgc_biomass, fgc_eatenbycots, rho, fgc_effcotsmort, fgc_growth ] = COTS_MICE_popdyn( years )
 
-% COTS-coral population dynamics model v2
+% COTS-coral MICE (Model of Intermediate Complexity for Ecosystem Assessment) population dynamics model v2
 % Implementation of a published MICE model by Morello et al. 2014, MEPS
 % Karlo Hock, University of Queensland, v1 2014; v2 2018
 

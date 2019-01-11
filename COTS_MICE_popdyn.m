@@ -9,7 +9,7 @@ function [ cots_num, fgc_biomass, fgc_eatenbycots, rho, fgc_effcotsmort, fgc_gro
 % This is just a demo of the Matlab implementation; not to be used for scientific or management purposes; 
 % refer to the original publication for model definition and details
 
-cots_num = zeros(years+1, 3);%N per year per age, number of COTS
+cots_num = zeros(years+1, 3);%N per year per stage, number of COTS
 cots_num(1, 1) = 0.505*exp(2*2.56);%N per year of year 0 COTS
 cots_num(1, 2) = 0.505*exp(2.56);%N per year of year 1 COTS
 cots_num(1, 3) = 0.505;%N per year of year 2+ COTS
